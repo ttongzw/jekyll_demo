@@ -1,7 +1,10 @@
-	---
-　　layout: default
-　　title: 你好，世界
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>我的第一篇文章(注意，文件名必须为"年-月-日-文章标题.后缀名"的格式)</p>
-　　<p>{{ page.date | date_to_string }}</p>
+---
+layout: default
+title: 你好，世界
+---
+
+<h2>{{ page.title }}</h2>
+
+<p>我的第一篇文章(注意，文件名必须为"年-月-日-文章标题.后缀名"的格式,且---字符前面不能有空格)</p>
+
+<p>{{ page.date | date_to_string }}</p>
